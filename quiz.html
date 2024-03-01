@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/title.png" type="image/png">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            
+            <img src="images/logo.jpeg" alt="Image of blog logo">
+        </div>
+
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="quiz.html" target="_blank">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <h1 class="h1">Front End Engineer Quiz</h1>
+
+
+    <form id="quizForm" class="quiz-container h3">
+       
+        <h3>Question 1: What does HTML stand for?</h3>
+        <input type="radio" name="question1" value="A"> Hyper Text Markup Language<br>
+        <input type="radio" name="question1" value="B"> Hyperlinks and Text Markup Language<br>
+
+        <h3>Question 2: Which programming language most likely runs in a web browser & provides interactie websites?</h3>
+        <input type="radio" name="question2" value="A"> Excel<br>
+        <input type="radio" name="question2" value="B"> JavaScript<br>
+        <input type="radio" name="question2" value="C"> Java<br>
+
+        <h3>Question 3: What does CSS stand for?</h3>
+        <input type="radio" name="question3" value="A"> Computer Style Sheets<br>
+        <input type="radio" name="question3" value="B"> Creative Style Sheets<br>
+        <input type="radio" name="question3" value="C"> Cascading Style Sheets<br>
+        
+        <h3>Question 4: Which property is used to change the background color of an element?</h3>
+        <input type="radio" name="question4" value="A"> color<br>
+        <input type="radio" name="question4" value="B"> background-color<br>
+        <input type="radio" name="question4" value="C"> bgcolor<br>
+        
+        <h3>Question 5: How do you select an element with the id "demo"?</h3>
+        <input type="radio" name="question5" value="A"> demo<br>
+        <input type="radio" name="question5" value="B"> #demo<br>
+        <input type="radio" name="question5" value="C"> .demo<br>
+
+        <h3>Question 6: Which property is used to change the font of an element?</h3>
+        <input type="radio" name="question6" value="A"> font-style<br>
+        <input type="radio" name="question6" value="B"> font-family<br>
+        <input type="radio" name="question6" value="C"> text-style<br>
+        
+        <h3>Question 7: Which symbol is used for a single comment in JavaScript?</h3>
+        <input type="radio" name="question7" value="A"> //<br>
+        <input type="radio" name="question7" value="B"> #<br>
+        <input type="radio" name="question7" value="C"> {}<br>
+        
+        <h3>Question 8: How do you declare a JavaScript variable?</h3>
+        <input type="radio" name="question8" value="A"> var name;<br>
+        <input type="radio" name="question8" value="B"> variable declared;<br>
+        <input type="radio" name="question8" value="C"> var declare();<br>
+        
+        <h3>Question 9: Which method is used to round a number to the nearest integer?</h3>
+        <input type="radio" name="question9" value="A"> Math.round()<br>
+        <input type="radio" name="question9" value="B"> Math.ceil()<br>
+        <input type="radio" name="question9" value="C"> Math.floor()<br>
+        
+        <h3>Question 10: How can you add a comment in a CSS file?</h3>
+        <input type="radio" name="question10" value="A"> // comment<br>
+        <input type="radio" name="question10" value="B"> # comment<br>
+        <input type="radio" name="question10" value="C"> /* comment */<br>
+        
+      
+        <button type="button" onclick="submitQuiz()" class="quiz-button">Submit</button>
+      </form>
+      
+      <div id="result" class="result"></div>
+
+
+      <div class="html-link">
+                        
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank"><img src="images/HTML-logos_transparent.png" alt="html image link"></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank"><img src="images/CSS-logos.jpeg" alt="css image link"></a></li>
+        <a href="" target="_blank"><img src="images/JavaScript-logos.jpeg" alt="javaScript image link"></a>
+    
+</div>
+      
+    <script src="index.js"></script>
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+            </a>
+        </p>
+
+<footer class="site-footer">
+    <div class="container">
+      <p>© 2024 Juan Salgado. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
